@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage  Title="Forums" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ForumProject1.Category"
+              xmlns:ic="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions">
+    <RelativeLayout  BackgroundColor="Black">
+        <SearchBar Placeholder="Search..."
+      
+              RelativeLayout.YConstraint="{ConstraintExpression 
+            Type=RelativeToParent,
+            Property=Height,
+            Factor=0,
+            Constant=0}"
+                   
+                   RelativeLayout.XConstraint="{ConstraintExpression
+            Type=RelativeToParent,
+            Property=Width,
+            Factor=0,
+            Constant=0}"
+                   
+                   
+                   
+                    RelativeLayout.WidthConstraint="{ConstraintExpression
+            Type=RelativeToParent,
+            Property=Width,
+            Factor=1,
+            Constant=0}"
+                 PlaceholderColor="White"
+                   BackgroundColor="Gray"
+                   CancelButtonColor="White"
+                   TextColor="White">
+            </SearchBar>
+        
+        <ListView x:Name="listView" HasUnevenRows="True" 
+                   RelativeLayout.YConstraint="{ConstraintExpression 
+            Type=RelativeToParent,
+            Property=Height,
+            Factor=0,
+            Constant=40}"
+                 
+                   RelativeLayout.WidthConstraint="{ConstraintExpression
+            Type=RelativeToParent,
+            Property=Width,
+            Factor=1
+            }"
+                  RelativeLayout.HeightConstraint="{ConstraintExpression
+            Type=RelativeToParent,
+            Property=Height,
+            Factor=1}"
+                  
+            SeparatorColor="White"
+            SeparatorVisibility="Default"
+                  
+                   >
+        <ListView.ItemTemplate >
+            <DataTemplate >
+                <ViewCell Tapped="ViewCell_Tapped" >
+                    <StackLayout Orientation="Horizontal" Padding="5">
+                        <ic:CircleImage Source="{Binding ImageUrl}"/>
+                        
+                        <StackLayout HorizontalOptions="StartAndExpand">
+                               <Label Text="{Binding Name}" TextColor="White" />
+                            </StackLayout>
+                        <Button 
+                              Text="Follow"  
+                              TextColor="White" 
+                              BackgroundColor="DeepSkyBlue" 
+                           
+                            ></Button>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+        
+    </RelativeLayout>
+</ContentPage>

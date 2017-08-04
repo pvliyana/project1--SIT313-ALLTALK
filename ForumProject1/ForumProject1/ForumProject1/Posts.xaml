@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ForumProject1.Posts"
+              xmlns:ic="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions">
+
+    <RelativeLayout >
+        <SearchBar Placeholder="Search..."
+      
+              RelativeLayout.YConstraint="{ConstraintExpression 
+            Type=RelativeToParent,
+            Property=Height,
+            Factor=0,
+            Constant=0}"
+                   
+                   RelativeLayout.XConstraint="{ConstraintExpression
+            Type=RelativeToParent,
+            Property=Width,
+            Factor=0,
+            Constant=0}"
+                   
+                   
+                    RelativeLayout.WidthConstraint="{ConstraintExpression
+            Type=RelativeToParent,
+            Property=Width,
+            Factor=1,
+            Constant=0}"
+                 PlaceholderColor="White"
+                   BackgroundColor="Gray"
+                   CancelButtonColor="White"
+                   TextColor="White">
+        </SearchBar>
+        <ListView x:Name="listPosts" HasUnevenRows="True" 
+                   RelativeLayout.YConstraint="{ConstraintExpression 
+            Type=RelativeToParent,
+            Property=Height,
+            Factor=0,
+            Constant=40}"
+                  SeparatorColor="White"
+                  SeparatorVisibility="Default"
+                  
+                   RelativeLayout.WidthConstraint="{ConstraintExpression
+            Type=RelativeToParent,
+            Property=Width,
+            Factor=1
+            }"
+                  RelativeLayout.HeightConstraint="{ConstraintExpression
+            Type=RelativeToParent,
+            Property=Height,
+            Factor=1}"
+                  >
+            <ListView.ItemTemplate >
+                <DataTemplate >
+                    <ViewCell  >
+                        <StackLayout Orientation="Horizontal" VerticalOptions="Center" Padding="5" BackgroundColor="White">
+
+                            <Image Source="{Binding ImageUrl}"/>
+
+                            <StackLayout HorizontalOptions="StartAndExpand"  >
+
+                                <Label Text="{Binding Name}" TextColor="Black" />
+                                <Label Text="{Binding Status}" TextColor="Black"/>
+
+
+                            </StackLayout>
+
+                            <Button 
+                              Text=">"  
+                              TextColor="Black" 
+                              BackgroundColor="Transparent"
+                              BorderColor="Transparent"
+                            ></Button>
+
+                        </StackLayout >
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </RelativeLayout>
+</ContentPage>
+    
+    
