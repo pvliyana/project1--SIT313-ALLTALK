@@ -5,7 +5,7 @@
              x:Class="ForumProject1.Login"
              xmlns:local="clr-namespace:ForumProject1.MarkupExtension"
              xmlns:ic="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions">
-
+<!--this is the login screen made  using an absolute layout with a circle image and two buttons-->
     <AbsoluteLayout  BackgroundColor="Black">
 
         <ic:CircleImage Source="{local:EmbeddedImage ForumProject1.Images.alltalkc.png}"

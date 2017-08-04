@@ -33,5 +33,10 @@ namespace ForumProject1
 
             listPosts.ItemsSource = _topics;
         }
+
+        async void ViewCell_Tapped(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new settings());
+        }
     }
 }

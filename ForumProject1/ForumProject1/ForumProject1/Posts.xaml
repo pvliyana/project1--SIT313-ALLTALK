@@ -51,7 +51,7 @@
                   >
             <ListView.ItemTemplate >
                 <DataTemplate >
-                    <ViewCell  >
+                    <ViewCell Tapped="ViewCell_Tapped" >
                         <StackLayout Orientation="Horizontal" VerticalOptions="Center" Padding="5" BackgroundColor="White">
 
                             <Image Source="{Binding ImageUrl}"/>
