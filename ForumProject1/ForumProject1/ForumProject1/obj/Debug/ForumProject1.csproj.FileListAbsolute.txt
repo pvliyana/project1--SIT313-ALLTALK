@@ -23,3 +23,26 @@ E:\Deakin Uni\YEAR 3\SIT313 - Mobile computing\ForumProject1\ForumProject1\Forum
 E:\Deakin Uni\YEAR 3\SIT313 - Mobile computing\ForumProject1\ForumProject1\ForumProject1\obj\Debug\ForumProject1.Posts.xaml.g.cs
 E:\Deakin Uni\YEAR 3\SIT313 - Mobile computing\ForumProject1\ForumProject1\ForumProject1\obj\Debug\ForumProject1.settings.xaml.g.cs
 E:\Deakin Uni\YEAR 3\SIT313 - Mobile computing\ForumProject1\ForumProject1\ForumProject1\obj\Debug\ForumProject1.PostsNSettings.xaml.g.cs
+C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1\obj\Debug\ForumProject1.csprojResolveAssemblyReference.cache
+C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1\obj\Debug\ForumProject1.MainPage.xaml.g.cs
+C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1\obj\Debug\ForumProject1.App.xaml.g.cs
+C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1\obj\Debug\ForumProject1.Login.xaml.g.cs
+C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1\obj\Debug\ForumProject1.Register.xaml.g.cs
+C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1\obj\Debug\ForumProject1.Category.xaml.g.cs
+C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1\obj\Debug\ForumProject1.SubCategory.xaml.g.cs
+C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1\obj\Debug\ForumProject1.Posts.xaml.g.cs
+C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1\obj\Debug\ForumProject1.dll
+C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1\obj\Debug\ForumProject1.pdb
+C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1\bin\Debug\ForumProject1.dll
+C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1\bin\Debug\ForumProject1.pdb
+C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1\bin\Debug\ImageCircle.Forms.Plugin.Abstractions.dll
+C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1\bin\Debug\ImageCircle.Forms.Plugin.Abstractions.pdb
+C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1\bin\Debug\ImageCircle.Forms.Plugin.Abstractions.xml
+C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1\bin\Debug\Xamarin.Forms.Xaml.xml

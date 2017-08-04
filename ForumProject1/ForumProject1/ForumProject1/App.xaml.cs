@@ -13,7 +13,7 @@ namespace ForumProject1
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new ForumProject1.settings());
+            MainPage = new NavigationPage(new ForumProject1.MainPage());
         }
 
         protected override void OnStart()

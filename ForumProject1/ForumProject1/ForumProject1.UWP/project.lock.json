@@ -22417,16 +22417,16 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "E:\\Deakin Uni\\YEAR 3\\SIT313 - Mobile computing\\ForumProject1\\ForumProject1\\ForumProject1.UWP\\ForumProject1.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\Parami\\Desktop\\PROJECT\\project1--SIT313-ALLTALK\\ForumProject1\\ForumProject1\\ForumProject1.UWP\\ForumProject1.UWP.csproj",
       "projectName": "ForumProject1.UWP",
-      "projectPath": "E:\\Deakin Uni\\YEAR 3\\SIT313 - Mobile computing\\ForumProject1\\ForumProject1\\ForumProject1.UWP\\ForumProject1.UWP.csproj",
-      "projectJsonPath": "E:\\Deakin Uni\\YEAR 3\\SIT313 - Mobile computing\\ForumProject1\\ForumProject1\\ForumProject1.UWP\\project.json",
+      "projectPath": "C:\\Users\\Parami\\Desktop\\PROJECT\\project1--SIT313-ALLTALK\\ForumProject1\\ForumProject1\\ForumProject1.UWP\\ForumProject1.UWP.csproj",
+      "projectJsonPath": "C:\\Users\\Parami\\Desktop\\PROJECT\\project1--SIT313-ALLTALK\\ForumProject1\\ForumProject1\\ForumProject1.UWP\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "uap10.0": {
           "projectReferences": {
-            "E:\\Deakin Uni\\YEAR 3\\SIT313 - Mobile computing\\ForumProject1\\ForumProject1\\ForumProject1\\ForumProject1.csproj": {
-              "projectPath": "E:\\Deakin Uni\\YEAR 3\\SIT313 - Mobile computing\\ForumProject1\\ForumProject1\\ForumProject1\\ForumProject1.csproj"
+            "C:\\Users\\Parami\\Desktop\\PROJECT\\project1--SIT313-ALLTALK\\ForumProject1\\ForumProject1\\ForumProject1\\ForumProject1.csproj": {
+              "projectPath": "C:\\Users\\Parami\\Desktop\\PROJECT\\project1--SIT313-ALLTALK\\ForumProject1\\ForumProject1\\ForumProject1\\ForumProject1.csproj"
             }
           }
         }

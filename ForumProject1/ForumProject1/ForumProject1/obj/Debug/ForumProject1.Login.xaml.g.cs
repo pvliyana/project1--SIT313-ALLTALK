@@ -11,8 +11,8 @@
 namespace ForumProject1 {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\Deakin Uni\\YEAR 3\\SIT313 - Mobile computing\\ForumProject1\\ForumProject1\\ForumP" +
-        "roject1\\Login.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Parami\\Desktop\\PROJECT\\project1--SIT313-ALLTALK\\ForumProject1\\ForumProje" +
+        "ct1\\ForumProject1\\Login.xaml")]
     public partial class Login : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

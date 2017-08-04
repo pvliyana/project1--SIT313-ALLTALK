@@ -18,7 +18,8 @@
         <Entry Keyboard="Text" 
                    Placeholder="Username or Email" 
                    PlaceholderColor="White"
-                   BackgroundColor="Transparent"  
+                   BackgroundColor="Transparent"
+               TextColor="White"
                    AbsoluteLayout.LayoutBounds="0.5,0.6,1,50" 
                    AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" 
                   />
@@ -26,6 +27,7 @@
         <Entry Keyboard="Text" Placeholder="Password" 
                PlaceholderColor="White"
                BackgroundColor="Transparent"
+               TextColor="White"
                AbsoluteLayout.LayoutBounds="0.5,0.7,1,50" 
                AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" 
                   />
