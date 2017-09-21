@@ -6,28 +6,38 @@
              xmlns:local="clr-namespace:ForumProject1.MarkupExtension"
              xmlns:ic="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions">
 <!--this is the login screen made  using an absolute layout with a circle image and two buttons-->
-    <AbsoluteLayout  BackgroundColor="Black">
+    <AbsoluteLayout  BackgroundColor="White">
 
-        <ic:CircleImage Source="{local:EmbeddedImage ForumProject1.Images.alltalkc.png}"
+        <!--<ic:CircleImage Source="{local:EmbeddedImage ForumProject1.Images.alltalkc.png}"
                         Aspect="AspectFill"
                         AbsoluteLayout.LayoutBounds="0.5,0" 
                         AbsoluteLayout.LayoutFlags="XProportional,YProportional" >
 
-        </ic:CircleImage>
+        </ic:CircleImage>-->
+        <Frame CornerRadius="50"  
+       OutlineColor="White"         
+       Padding="1"
+               HasShadow="True"
+               AbsoluteLayout.LayoutBounds="0.5,0.1,200,200" AbsoluteLayout.LayoutFlags="PositionProportional">
+            <StackLayout>
+                <Image Source="{local:EmbeddedImage ForumProject1.Images.alltalk.png}"  />
+
+            </StackLayout>
+        </Frame>
 
         <Entry Keyboard="Text" 
                    Placeholder="Username or Email" 
-                   PlaceholderColor="White"
+                   PlaceholderColor="Black"
                    BackgroundColor="Transparent"
-               TextColor="White"
+                   TextColor="Black"
                    AbsoluteLayout.LayoutBounds="0.5,0.6,1,50" 
                    AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" 
                   />
 
         <Entry Keyboard="Text" Placeholder="Password" 
-               PlaceholderColor="White"
+               PlaceholderColor="Black"
                BackgroundColor="Transparent"
-               TextColor="White"
+               TextColor="Black"
                AbsoluteLayout.LayoutBounds="0.5,0.7,1,50" 
                AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" 
                   />
@@ -35,7 +45,7 @@
 
         <Button Text="Sign In"
                 Clicked="Button_Clicked"
-                BackgroundColor="Blue" 
+                BackgroundColor="#0e93ff" 
                 TextColor="White"
                 AbsoluteLayout.LayoutBounds="0,1,1,50" 
                 AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>

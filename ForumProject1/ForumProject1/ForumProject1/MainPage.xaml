@@ -4,9 +4,9 @@
              x:Class="ForumProject1.MainPage"
              xmlns:local="clr-namespace:ForumProject1.MarkupExtension"
              xmlns:ic="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
-            >
+            BackgroundColor="LightCyan">
   
-    <RelativeLayout >
+    <!--<RelativeLayout >
 
         <Image Source="{local:EmbeddedImage ForumProject1.Images.pic1.png}" 
            x:Name="image" Aspect="AspectFill"
@@ -69,7 +69,7 @@
                     >
                 
             </Button>
-            <Button Clicked="Button_Clicked_1" Text="Register" BackgroundColor="Blue" TextColor="White" 
+        <Button Clicked="Button_Clicked_1" Text="Register" BackgroundColor="Blue" TextColor="White" 
                      RelativeLayout.YConstraint="{ConstraintExpression 
                 Type=RelativeToView,
                 ElementName=image,
@@ -86,6 +86,38 @@
             Property=Height,
             Factor=0.2}"
                 ></Button>
-    </RelativeLayout>
-  
+    </RelativeLayout>-->
+    <AbsoluteLayout   >
+        <!--<Grid BackgroundColor="Yellow"
+          RowSpacing="20"
+          ColumnSpacing="20"
+              >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+              
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+              
+            </Grid.ColumnDefinitions>
+            <Image  Grid.Row="0" Grid.Column="0" Source="{local:EmbeddedImage ForumProject1.Images.alltalkc.png}" />
+          
+
+        </Grid>-->
+        <Frame CornerRadius="50"  
+       OutlineColor="White"         
+       Padding="1"
+               HasShadow="True"
+               AbsoluteLayout.LayoutBounds="0.5,0.2" AbsoluteLayout.LayoutFlags="PositionProportional">
+            <StackLayout>
+                <Image Source="{local:EmbeddedImage ForumProject1.Images.alltalk.png}"  />
+
+            </StackLayout>
+        </Frame>
+        <Button Clicked="Button_Clicked" Text="Login" BackgroundColor="White" TextColor="#0e93ff"  
+       AbsoluteLayout.LayoutBounds="0,0.9,1,50" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"  ></Button>
+        <Button Clicked="Button_Clicked_1" Text="Register" BackgroundColor="Black" TextColor="#0e93ff" 
+       AbsoluteLayout.LayoutBounds="0,1,1,50" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"  ></Button>
+    </AbsoluteLayout>
+
 </ContentPage>

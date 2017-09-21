@@ -1,19 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using System.Collections.ObjectModel;
 
 namespace ForumProject1
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class SubCategory : ContentPage
     {
-        private ObservableCollection<Topics> _subtopics;
+       private ObservableCollection<Topics> _subtopics;
 
         public SubCategory()
         {

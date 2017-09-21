@@ -47,3 +47,6 @@ C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProj
 C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1\obj\Debug\ForumProject1.settings.xaml.g.cs
+C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1\obj\Debug\ForumProject1.csproj.CoreCompileInputs.cache
+C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1\obj\Debug\ForumProject1.StartPage.xaml.g.cs
+C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1\obj\Debug\ForumProject1.Page1.xaml.g.cs

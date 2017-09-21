@@ -5,31 +5,43 @@
              x:Class="ForumProject1.Register"
              xmlns:local="clr-namespace:ForumProject1.MarkupExtension"
              xmlns:ic="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
+             BackgroundColor="White"
              >
-    <AbsoluteLayout BackgroundColor="Black">
-        <ic:CircleImage Source="{local:EmbeddedImage ForumProject1.Images.alltalkc.png}" 
+    <AbsoluteLayout>
+        <!--<ic:CircleImage Source="{local:EmbeddedImage ForumProject1.Images.alltalkc.png}" 
                         AbsoluteLayout.LayoutBounds="0.5,0" 
                         AbsoluteLayout.LayoutFlags="XProportional,YProportional" >
             
-        </ic:CircleImage>
-       
-            <Entry Keyboard="Text" 
+        </ic:CircleImage>-->
+        <Frame CornerRadius="50"  
+               OutlineColor="White"         
+               Padding="1"
+               HasShadow="True"
+               AbsoluteLayout.LayoutBounds="0.5,0.1,200,200" AbsoluteLayout.LayoutFlags="PositionProportional">
+            <StackLayout>
+                <Image Source="{local:EmbeddedImage ForumProject1.Images.alltalk.png}"  />
+
+            </StackLayout>
+        </Frame>
+
+        <Entry Keyboard="Text" 
                    Placeholder="Username or Email" 
-                   PlaceholderColor="Gray"
+                   PlaceholderColor="Black"
+                   TextColor="Black"
                    BackgroundColor="Transparent"  
                    AbsoluteLayout.LayoutBounds="0.5,0.6,1,50" 
-                   AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" 
-                  />
+                   AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"  />
         
-            <Entry Keyboard="Text" Placeholder="Password" PlaceholderColor="Gray"
+            <Entry 
+              Keyboard="Text" Placeholder="Password" PlaceholderColor="Black"
               BackgroundColor="Transparent"
+              TextColor="Black"
               AbsoluteLayout.LayoutBounds="0.5,0.7,1,50" 
-              AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" 
-                  />
+              AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" />
         
 
         <Button Text="Sign Up" 
-                BackgroundColor="Blue" 
+                BackgroundColor="#0e93ff" 
                 TextColor="White"
                 AbsoluteLayout.LayoutBounds="0,1,1,50" 
                 AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" 

@@ -118,3 +118,4 @@ C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProj
 C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\Parami\Desktop\PROJECT\project1--SIT313-ALLTALK\ForumProject1\ForumProject1\ForumProject1.Android\obj\Debug\ForumProject1.Android.csproj.CoreCompileInputs.cache
