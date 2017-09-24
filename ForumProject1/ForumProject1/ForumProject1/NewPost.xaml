@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ForumProject1.NewPost">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem  Icon="plus.png" Clicked="ToolbarItem_Clicked"/>
+    </ContentPage.ToolbarItems>
+    <StackLayout>
+
+        <Label Text="Write a post...." FontSize="Medium"></Label>
+        <!--new post content-->
+        <Editor x:Name="postContent"  VerticalOptions="FillAndExpand"  />
+        
+    </StackLayout>
+</ContentPage>

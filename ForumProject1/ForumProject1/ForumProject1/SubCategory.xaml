@@ -1,75 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage NavigationPage.HasNavigationBar="False"
+<ContentPage NavigationPage.HasNavigationBar="True"
+             Title="Discussions"
              xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ForumProject1.SubCategory"
+             xmlns:local="clr-namespace:ForumProject1.MarkupExtension"
              xmlns:ic="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
+             BackgroundColor="White"
    >
+    <!--this is the toolbar button for adding and deleting posts-->
+    <ContentPage.ToolbarItems>
+        <ToolbarItem  Icon="plus.png" Clicked="ToolbarItem_Clicked" Order="Primary"/>
+        <ToolbarItem Icon="del.png" Clicked="ToolbarItem_Clicked_1" Order="Primary" />
+    </ContentPage.ToolbarItems>
     <RelativeLayout  BackgroundColor="Black" >
-        <SearchBar Placeholder="Search..."
-      
-              RelativeLayout.YConstraint="{ConstraintExpression 
-            Type=RelativeToParent,
-            Property=Height,
-            Factor=0,
-            Constant=0}"
-                   
-                   RelativeLayout.XConstraint="{ConstraintExpression
-            Type=RelativeToParent,
-            Property=Width,
-            Factor=0,
-            Constant=0}"
-                   
-                   
-                    RelativeLayout.WidthConstraint="{ConstraintExpression
-            Type=RelativeToParent,
-            Property=Width,
-            Factor=1,
-            Constant=0}"
-                 PlaceholderColor="White"
-                   BackgroundColor="Gray"
-                   CancelButtonColor="White"
-                   TextColor="White">
-        </SearchBar>
 
-        <ListView x:Name="listView2" HasUnevenRows="True" 
-                   RelativeLayout.YConstraint="{ConstraintExpression 
-            Type=RelativeToParent,
-            Property=Height,
-            Factor=0,
-            Constant=40}"
-                  SeparatorColor="White"
-                  SeparatorVisibility="Default"
-                  
-                   RelativeLayout.WidthConstraint="{ConstraintExpression
-            Type=RelativeToParent,
-            Property=Width,
-            Factor=1
-            }"
-                  RelativeLayout.HeightConstraint="{ConstraintExpression
-            Type=RelativeToParent,
-            Property=Height,
-            Factor=1}"
-                  >
+        <ListView x:Name="listView2"                  
+            SeparatorColor="White"
+            SeparatorVisibility="Default" HasUnevenRows="True">
             <ListView.ItemTemplate >
                 <DataTemplate >
-                    <ViewCell Tapped="ViewCell_Tapped" >
-                        <StackLayout Orientation="Horizontal" Padding="5">
-                            <ic:CircleImage Source="{Binding ImageUrl}"/>
-
+                    <ViewCell  >
+                        <StackLayout Orientation="Horizontal" Padding="10">
+                          
+                            <ic:CircleImage  Source="{local:EmbeddedImage ForumProject1.Images.at.png}" />
                             <StackLayout HorizontalOptions="StartAndExpand">
-                                <Label Text="{Binding Name}" TextColor="White" />
-                                <Label Text="{Binding Status}" TextColor="Black"/>
+                                <!--this is the textcell for each post-->
+                                <Label Text="{Binding newCreatedPost}" TextColor="White"  FontSize="Medium"/>
 
                             </StackLayout>
-                            <Button 
-                              Text=">"  
-                              TextColor="White" 
-                                BackgroundColor="Transparent"
-                          
-                            ></Button>
                         </StackLayout>
+                       
                     </ViewCell>
+                   
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>

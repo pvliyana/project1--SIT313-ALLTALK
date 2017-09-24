@@ -14,8 +14,10 @@ namespace ForumProject1
             InitializeComponent();
 
             MainPage = new NavigationPage(new ForumProject1.MainPage());
-        }
 
+            Load.CategoryPost();
+        }
+  
         protected override void OnStart()
         {
             // Handle when your app starts

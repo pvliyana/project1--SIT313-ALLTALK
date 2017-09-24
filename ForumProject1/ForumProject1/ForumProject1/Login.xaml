@@ -8,12 +8,7 @@
 <!--this is the login screen made  using an absolute layout with a circle image and two buttons-->
     <AbsoluteLayout  BackgroundColor="White">
 
-        <!--<ic:CircleImage Source="{local:EmbeddedImage ForumProject1.Images.alltalkc.png}"
-                        Aspect="AspectFill"
-                        AbsoluteLayout.LayoutBounds="0.5,0" 
-                        AbsoluteLayout.LayoutFlags="XProportional,YProportional" >
-
-        </ic:CircleImage>-->
+     
         <Frame CornerRadius="50"  
        OutlineColor="White"         
        Padding="1"
@@ -24,7 +19,7 @@
 
             </StackLayout>
         </Frame>
-
+        <!--this is the username-->
         <Entry Keyboard="Text" 
                    Placeholder="Username or Email" 
                    PlaceholderColor="Black"
@@ -32,18 +27,20 @@
                    TextColor="Black"
                    AbsoluteLayout.LayoutBounds="0.5,0.6,1,50" 
                    AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" 
+                x:Name="usernameU"
                   />
-
+        <!--this is the password-->
         <Entry Keyboard="Text" Placeholder="Password" 
                PlaceholderColor="Black"
                BackgroundColor="Transparent"
                TextColor="Black"
                AbsoluteLayout.LayoutBounds="0.5,0.7,1,50" 
                AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" 
-                  />
+                x:Name="passwordU"
+               IsPassword="True"/>
+          
 
-
-        <Button Text="Sign In"
+            <Button Text="Sign In"
                 Clicked="Button_Clicked"
                 BackgroundColor="#0e93ff" 
                 TextColor="White"
